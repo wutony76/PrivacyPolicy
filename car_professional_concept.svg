@@ -1,201 +1,194 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
-  <title id="title">Professional Offroad Hypercar Concept</title>
-  <desc id="desc">A professional concept vehicle blending military offroad strength with futuristic hypercar aerodynamics.</desc>
+  <title id="title">Professional Offroad Hypercar Concept - Perspective Study</title>
+  <desc id="desc">A professional concept car in a three-quarter front perspective with corrected wheel scaling and converging ground geometry.</desc>
 
   <defs>
     <linearGradient id="bgGradient" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#dfe7f2"/>
-      <stop offset="45%" stop-color="#c3cfdf"/>
-      <stop offset="100%" stop-color="#a8b7cb"/>
+      <stop offset="0%" stop-color="#e5ecf6"/>
+      <stop offset="52%" stop-color="#c7d4e6"/>
+      <stop offset="100%" stop-color="#a4b4ca"/>
     </linearGradient>
 
-    <radialGradient id="spotLeft" cx="20%" cy="22%" r="42%">
-      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.68"/>
+    <radialGradient id="studioLightA" cx="28%" cy="22%" r="44%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.76"/>
       <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
     </radialGradient>
 
-    <radialGradient id="spotRight" cx="82%" cy="26%" r="44%">
-      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.62"/>
+    <radialGradient id="studioLightB" cx="82%" cy="24%" r="40%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.64"/>
       <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
     </radialGradient>
 
-    <linearGradient id="floorGradient" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#8c9db4"/>
-      <stop offset="100%" stop-color="#65778e"/>
+    <linearGradient id="groundGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#8fa2bb"/>
+      <stop offset="100%" stop-color="#667a93"/>
     </linearGradient>
 
-    <linearGradient id="bodyPaint" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#1b2330"/>
-      <stop offset="30%" stop-color="#2f3a4b"/>
-      <stop offset="65%" stop-color="#424d5f"/>
-      <stop offset="100%" stop-color="#1f2734"/>
+    <linearGradient id="bodyPaintMain" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1a2431"/>
+      <stop offset="34%" stop-color="#2f3d4f"/>
+      <stop offset="68%" stop-color="#49576c"/>
+      <stop offset="100%" stop-color="#242d3b"/>
     </linearGradient>
 
-    <linearGradient id="armorPaint" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#586572"/>
-      <stop offset="100%" stop-color="#262f3a"/>
+    <linearGradient id="bodyPaintTop" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#58697c"/>
+      <stop offset="100%" stop-color="#293444"/>
     </linearGradient>
 
-    <linearGradient id="accentPaint" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#d4001d"/>
-      <stop offset="45%" stop-color="#ff3f34"/>
-      <stop offset="100%" stop-color="#a30019"/>
+    <linearGradient id="accentStripe" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#cc0f25"/>
+      <stop offset="56%" stop-color="#ff4a3e"/>
+      <stop offset="100%" stop-color="#9d0018"/>
     </linearGradient>
 
-    <linearGradient id="glassPaint" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#d7f1ff" stop-opacity="0.88"/>
-      <stop offset="45%" stop-color="#8fc9f5" stop-opacity="0.6"/>
-      <stop offset="100%" stop-color="#3e77ab" stop-opacity="0.44"/>
+    <linearGradient id="windowPaint" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e4f5ff" stop-opacity="0.86"/>
+      <stop offset="45%" stop-color="#9fd2f4" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#437aa9" stop-opacity="0.42"/>
+    </linearGradient>
+
+    <linearGradient id="frontLight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f2ffff" stop-opacity="0.92"/>
+      <stop offset="100%" stop-color="#8af5ff" stop-opacity="0.2"/>
     </linearGradient>
 
     <linearGradient id="tirePaint" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#1b2029"/>
-      <stop offset="100%" stop-color="#05070b"/>
+      <stop offset="0%" stop-color="#1b202a"/>
+      <stop offset="100%" stop-color="#07090d"/>
     </linearGradient>
 
     <radialGradient id="rimPaint" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#f3f7ff"/>
-      <stop offset="45%" stop-color="#c5d2e2"/>
-      <stop offset="100%" stop-color="#7f8fa3"/>
+      <stop offset="0%" stop-color="#f6f9ff"/>
+      <stop offset="48%" stop-color="#c6d4e7"/>
+      <stop offset="100%" stop-color="#7e90a7"/>
     </radialGradient>
 
-    <linearGradient id="headlampGlow" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#f4ffff" stop-opacity="0.9"/>
-      <stop offset="100%" stop-color="#89f2ff" stop-opacity="0.18"/>
-    </linearGradient>
-
-    <filter id="softShadow" x="-30%" y="-40%" width="170%" height="190%">
-      <feGaussianBlur in="SourceAlpha" stdDeviation="18" result="blur"/>
-      <feOffset dx="0" dy="18" result="offset"/>
+    <filter id="vehicleShadow" x="-35%" y="-45%" width="180%" height="200%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="18" result="shadowBlur"/>
+      <feOffset dx="0" dy="20" result="shadowOffset"/>
       <feComponentTransfer>
         <feFuncA type="linear" slope="0.35"/>
       </feComponentTransfer>
       <feMerge>
-        <feMergeNode in="offset"/>
+        <feMergeNode in="shadowOffset"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
 
-    <filter id="bodyGlow" x="-25%" y="-25%" width="150%" height="150%">
-      <feGaussianBlur stdDeviation="3.2" result="blur"/>
+    <filter id="lightBloom" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="4" result="bloom"/>
       <feMerge>
-        <feMergeNode in="blur"/>
+        <feMergeNode in="bloom"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
 
     <pattern id="grillePattern" width="12" height="12" patternUnits="userSpaceOnUse">
-      <path d="M0 6 H12 M6 0 V12" stroke="#1b2029" stroke-width="1.5" opacity="0.45"/>
+      <path d="M0 6 H12 M6 0 V12" stroke="#1b2028" stroke-width="1.6" opacity="0.4"/>
     </pattern>
 
-    <path id="bodyShell" d="M140 486 L208 352 C280 258 426 210 652 196 L940 186 C1088 182 1210 230 1310 324 L1400 406 L1362 470 L1186 480 C1048 490 944 510 842 532 L336 532 C244 532 188 516 140 486 Z"/>
-    <path id="cabinShell" d="M458 334 C518 246 640 198 804 188 L972 182 C1066 178 1142 214 1212 274 L1268 332 L1248 358 L530 366 Z"/>
-    <path id="windowShell" d="M516 332 C568 266 672 224 816 216 L958 210 C1038 206 1098 234 1152 286 L1196 330 L1188 342 L568 348 Z"/>
+    <path id="bodyShell" d="M402 588 L336 544 L350 486 L426 430 C560 330 760 274 1078 252 C1214 246 1318 280 1394 356 L1466 434 L1428 496 L1264 510 C1128 522 1024 540 916 578 L566 618 C492 626 444 616 402 588 Z"/>
+    <path id="roofShell" d="M642 430 C708 326 846 268 1048 254 C1168 246 1250 278 1314 338 L1342 390 L1312 412 L688 454 Z"/>
+    <path id="windowShell" d="M710 432 C770 350 878 306 1044 292 C1142 284 1206 306 1252 350 L1278 390 L1262 402 L748 438 Z"/>
     <clipPath id="bodyClip">
       <use href="#bodyShell"/>
     </clipPath>
   </defs>
 
   <rect width="1600" height="900" fill="url(#bgGradient)"/>
-  <rect width="1600" height="900" fill="url(#spotLeft)"/>
-  <rect width="1600" height="900" fill="url(#spotRight)"/>
+  <rect width="1600" height="900" fill="url(#studioLightA)"/>
+  <rect width="1600" height="900" fill="url(#studioLightB)"/>
 
-  <path d="M0 590 L1600 590 L1600 900 L0 900 Z" fill="url(#floorGradient)"/>
-  <path d="M0 602 C330 568 620 558 800 560 C1010 562 1290 574 1600 616 L1600 900 L0 900 Z"
-        fill="#6f8098" opacity="0.45"/>
-  <path d="M0 650 C310 620 620 612 800 614 C1010 616 1280 632 1600 668"
-        stroke="#91a3bb" stroke-width="2" fill="none" opacity="0.45"/>
+  <path d="M0 586 L1600 586 L1600 900 L0 900 Z" fill="url(#groundGradient)"/>
 
-  <g transform="translate(40 78)" filter="url(#softShadow)">
-    <ellipse cx="760" cy="548" rx="560" ry="74" fill="#2f3b4b" opacity="0.45"/>
-    <ellipse cx="760" cy="558" rx="462" ry="56" fill="#1e2732" opacity="0.3"/>
-
-    <use href="#bodyShell" fill="url(#bodyPaint)" stroke="#101722" stroke-width="4"/>
-    <use href="#cabinShell" fill="url(#armorPaint)" stroke="#1a202a" stroke-width="4"/>
-    <use href="#windowShell" fill="url(#glassPaint)" stroke="#bde7ff" stroke-opacity="0.46" stroke-width="2.5"/>
-
-    <g clip-path="url(#bodyClip)">
-      <path d="M170 450 C350 370 500 415 660 350 C840 278 1064 356 1322 288"
-            stroke="url(#accentPaint)" stroke-width="42" fill="none" stroke-linecap="round" opacity="0.96"/>
-      <path d="M150 404 C340 332 522 374 676 316 C868 244 1082 320 1338 264"
-            stroke="#c2d0de" stroke-width="18" fill="none" stroke-linecap="round" opacity="0.33"/>
-      <path d="M230 503 C390 448 612 468 770 430 C930 392 1052 412 1210 386"
-            stroke="#8a9db4" stroke-width="8" fill="none" opacity="0.4"/>
-      <path d="M196 488 C410 426 630 450 816 396 C990 346 1128 354 1300 330"
-            stroke="#e5edf8" stroke-width="4" fill="none" opacity="0.58"/>
-    </g>
-
-    <path d="M220 462 C330 454 430 444 536 426 C662 404 784 374 910 344 C1038 312 1160 302 1306 300"
-          stroke="#f4f7fd" stroke-opacity="0.28" stroke-width="3" fill="none"/>
-
-    <path d="M476 354 L1238 346" stroke="#d2deed" stroke-opacity="0.34" stroke-width="2"/>
-    <path d="M870 214 L864 352" stroke="#d1e2f4" stroke-opacity="0.4" stroke-width="2"/>
-
-    <path d="M1362 470 L1450 446 L1418 426 L1364 430 Z"
-          fill="#1b2634" stroke="#131d29" stroke-width="3"/>
-    <rect x="1386" y="430" width="58" height="18" rx="5" fill="url(#headlampGlow)" filter="url(#bodyGlow)"/>
-
-    <path d="M146 458 L112 456 L84 446 L90 420 L136 424 Z"
-          fill="#222d3a" stroke="#121a26" stroke-width="3"/>
-    <rect x="92" y="428" width="46" height="14" rx="4" fill="#d7f8ff" opacity="0.84"/>
-
-    <path d="M210 444 L314 440 L342 470 L188 474 Z" fill="url(#grillePattern)" opacity="0.74"/>
-    <path d="M350 300 L428 292 L488 332 L400 338 Z" fill="#2b3644" opacity="0.65"/>
-
-    <g>
-      <path d="M694 180 L774 176 L826 206 L740 208 Z" fill="#242f3f"/>
-      <rect x="700" y="165" width="154" height="15" rx="4" fill="#1a222f"/>
-      <rect x="708" y="156" width="20" height="10" rx="2" fill="#252f3f"/>
-      <rect x="825" y="156" width="20" height="10" rx="2" fill="#252f3f"/>
-    </g>
-
-    <g>
-      <path d="M238 532 C256 470 298 434 360 430 C426 426 470 464 488 532"
-            fill="#111722" opacity="0.7"/>
-      <path d="M856 532 C874 470 916 434 978 430 C1044 426 1088 464 1106 532"
-            fill="#111722" opacity="0.7"/>
-    </g>
-
-    <g transform="translate(362 532)">
-      <circle r="112" fill="url(#tirePaint)" stroke="#020407" stroke-width="7"/>
-      <circle r="80" fill="#111a28" stroke="#39485e" stroke-width="6"/>
-      <circle r="56" fill="url(#rimPaint)" stroke="#deebfb" stroke-opacity="0.45" stroke-width="2"/>
-      <circle r="16" fill="#eef5ff"/>
-      <g stroke="#8595ac" stroke-width="5" stroke-linecap="round" opacity="0.85">
-        <path d="M0 -16 L0 -54"/>
-        <path d="M16 0 L54 0"/>
-        <path d="M0 16 L0 54"/>
-        <path d="M-16 0 L-54 0"/>
-        <path d="M11 -11 L38 -38"/>
-        <path d="M11 11 L38 38"/>
-        <path d="M-11 11 L-38 38"/>
-        <path d="M-11 -11 L-38 -38"/>
-      </g>
-    </g>
-
-    <g transform="translate(980 532)">
-      <circle r="112" fill="url(#tirePaint)" stroke="#020407" stroke-width="7"/>
-      <circle r="80" fill="#111a28" stroke="#39485e" stroke-width="6"/>
-      <circle r="56" fill="url(#rimPaint)" stroke="#deebfb" stroke-opacity="0.45" stroke-width="2"/>
-      <circle r="16" fill="#eef5ff"/>
-      <g stroke="#8595ac" stroke-width="5" stroke-linecap="round" opacity="0.85">
-        <path d="M0 -16 L0 -54"/>
-        <path d="M16 0 L54 0"/>
-        <path d="M0 16 L0 54"/>
-        <path d="M-16 0 L-54 0"/>
-        <path d="M11 -11 L38 -38"/>
-        <path d="M11 11 L38 38"/>
-        <path d="M-11 11 L-38 38"/>
-        <path d="M-11 -11 L-38 -38"/>
-      </g>
-    </g>
-
-    <path d="M448 536 L670 536 C676 536 682 540 685 546 C692 560 705 568 728 570 L842 570 C863 568 878 560 884 546 C887 540 893 536 899 536 L1112 536"
-          stroke="#cfd9e8" stroke-opacity="0.24" stroke-width="4" fill="none"/>
+  <g opacity="0.28">
+    <path d="M0 650 L1410 360" stroke="#9fb0c5" stroke-width="2.2"/>
+    <path d="M0 710 L1410 360" stroke="#9fb0c5" stroke-width="2.2"/>
+    <path d="M1600 612 L1410 360" stroke="#9fb0c5" stroke-width="2.2"/>
+    <path d="M1600 760 L1410 360" stroke="#9fb0c5" stroke-width="2.2"/>
   </g>
 
-  <g opacity="0.2">
-    <path d="M352 668 C560 694 1042 700 1278 680 C1060 708 558 706 330 680 Z" fill="#dce6f3"/>
+  <g filter="url(#vehicleShadow)">
+    <path d="M412 640 C610 674 996 678 1328 612 C1080 694 636 708 386 654 Z" fill="#2c3848" opacity="0.45"/>
+
+    <use href="#bodyShell" fill="url(#bodyPaintMain)" stroke="#131b27" stroke-width="4"/>
+    <use href="#roofShell" fill="url(#bodyPaintTop)" stroke="#1a232f" stroke-width="4"/>
+    <use href="#windowShell" fill="url(#windowPaint)" stroke="#c6eaff" stroke-opacity="0.42" stroke-width="2.5"/>
+
+    <g clip-path="url(#bodyClip)">
+      <path d="M398 566 C572 474 782 504 944 442 C1116 376 1260 388 1434 350"
+            stroke="url(#accentStripe)" stroke-width="52" fill="none" stroke-linecap="round" opacity="0.96"/>
+      <path d="M394 526 C560 446 770 474 928 416 C1110 348 1248 356 1436 320"
+            stroke="#d8e2ef" stroke-width="18" fill="none" stroke-linecap="round" opacity="0.33"/>
+      <path d="M462 610 C670 566 892 566 1052 530 C1188 498 1286 488 1410 462"
+            stroke="#8da0b7" stroke-width="8" fill="none" opacity="0.4"/>
+      <path d="M432 596 C648 540 866 546 1032 500 C1180 458 1288 446 1420 418"
+            stroke="#ecf2fb" stroke-width="4" fill="none" opacity="0.58"/>
+    </g>
+
+    <path d="M456 558 C616 544 772 524 926 486 C1084 448 1208 424 1380 404"
+          stroke="#f7fbff" stroke-opacity="0.28" stroke-width="3" fill="none"/>
+
+    <path d="M704 438 L1290 396" stroke="#d3dfec" stroke-opacity="0.36" stroke-width="2"/>
+    <path d="M1038 258 L1028 434" stroke="#d4e1f0" stroke-opacity="0.4" stroke-width="2"/>
+
+    <path d="M348 534 L286 520 L292 468 L364 474 L406 496 Z"
+          fill="#1f2a36" stroke="#141c27" stroke-width="3"/>
+    <rect x="292" y="476" width="72" height="20" rx="6" fill="url(#frontLight)" filter="url(#lightBloom)"/>
+
+    <path d="M1428 496 L1504 474 L1468 444 L1420 450 Z"
+          fill="#1d2735" stroke="#131c28" stroke-width="3"/>
+    <rect x="1450" y="448" width="54" height="16" rx="5" fill="#dbf8ff" opacity="0.85"/>
+
+    <path d="M420 548 L570 542 L542 586 L402 590 Z" fill="url(#grillePattern)" opacity="0.76"/>
+
+    <path d="M796 272 L874 266 L930 298 L846 304 Z" fill="#273242"/>
+    <rect x="804" y="254" width="146" height="14" rx="4" fill="#1a2330"/>
+    <rect x="812" y="244" width="20" height="10" rx="2" fill="#263140"/>
+    <rect x="920" y="244" width="20" height="10" rx="2" fill="#263140"/>
+
+    <path d="M510 618 C536 542 596 498 688 492 C756 488 808 532 822 608 L510 618 Z"
+          fill="#101722" opacity="0.68"/>
+    <path d="M958 582 C978 528 1018 496 1080 490 C1146 484 1198 514 1230 568 L958 582 Z"
+          fill="#101722" opacity="0.62"/>
+
+    <g transform="translate(674 620) rotate(-7)">
+      <ellipse rx="145" ry="134" fill="url(#tirePaint)" stroke="#030509" stroke-width="8"/>
+      <ellipse rx="102" ry="96" fill="#101927" stroke="#3b4a60" stroke-width="6"/>
+      <ellipse rx="72" ry="68" fill="url(#rimPaint)" stroke="#dce8f7" stroke-opacity="0.42" stroke-width="2"/>
+      <ellipse rx="20" ry="19" fill="#eef5ff"/>
+      <g stroke="#8294ab" stroke-width="6" stroke-linecap="round" opacity="0.86">
+        <path d="M0 -20 L0 -66"/>
+        <path d="M20 0 L66 0"/>
+        <path d="M0 20 L0 66"/>
+        <path d="M-20 0 L-66 0"/>
+        <path d="M14 -14 L48 -48"/>
+        <path d="M14 14 L48 48"/>
+        <path d="M-14 14 L-48 48"/>
+        <path d="M-14 -14 L-48 -48"/>
+      </g>
+    </g>
+
+    <g transform="translate(1098 586) rotate(-3)">
+      <ellipse rx="110" ry="102" fill="url(#tirePaint)" stroke="#030509" stroke-width="7"/>
+      <ellipse rx="76" ry="70" fill="#101927" stroke="#3b4a60" stroke-width="5"/>
+      <ellipse rx="54" ry="50" fill="url(#rimPaint)" stroke="#dce8f7" stroke-opacity="0.4" stroke-width="2"/>
+      <ellipse rx="14" ry="13" fill="#eef5ff"/>
+      <g stroke="#8093ac" stroke-width="4.5" stroke-linecap="round" opacity="0.8">
+        <path d="M0 -14 L0 -46"/>
+        <path d="M14 0 L46 0"/>
+        <path d="M0 14 L0 46"/>
+        <path d="M-14 0 L-46 0"/>
+        <path d="M10 -10 L34 -34"/>
+        <path d="M10 10 L34 34"/>
+        <path d="M-10 10 L-34 34"/>
+        <path d="M-10 -10 L-34 -34"/>
+      </g>
+    </g>
+
+    <path d="M706 610 L884 600 C894 600 902 604 908 612 C922 628 946 636 982 636 L1062 632 C1094 628 1114 620 1128 606 C1134 600 1140 596 1148 596 L1264 588"
+          stroke="#d0dceb" stroke-opacity="0.22" stroke-width="4" fill="none"/>
   </g>
 </svg>
