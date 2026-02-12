@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 800" role="img" aria-labelledby="title desc">
+  <title id="title">Custom Painted Car Illustration</title>
+  <desc id="desc">A futuristic sports car with exaggerated colorful body paint and graffiti style elements.</desc>
+
+  <defs>
+    <linearGradient id="bgSky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1b0f47"/>
+      <stop offset="55%" stop-color="#3b1e86"/>
+      <stop offset="100%" stop-color="#7e3ff2"/>
+    </linearGradient>
+
+    <linearGradient id="roadGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#27253a"/>
+      <stop offset="100%" stop-color="#131221"/>
+    </linearGradient>
+
+    <linearGradient id="carBase" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#04d1ff"/>
+      <stop offset="45%" stop-color="#7c5cff"/>
+      <stop offset="100%" stop-color="#ff3f8e"/>
+    </linearGradient>
+
+    <linearGradient id="windowGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#b2f6ff" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#4d9bf7" stop-opacity="0.35"/>
+    </linearGradient>
+
+    <radialGradient id="wheelGlow" cx="50%" cy="50%" r="55%">
+      <stop offset="0%" stop-color="#ffe86d" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#ff8c00" stop-opacity="0.15"/>
+    </radialGradient>
+
+    <filter id="softGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1400" height="800" fill="url(#bgSky)"/>
+
+  <g opacity="0.45">
+    <circle cx="220" cy="130" r="120" fill="#ff4bd0"/>
+    <circle cx="360" cy="220" r="70" fill="#00e7ff"/>
+    <circle cx="1140" cy="170" r="150" fill="#ff6a00"/>
+    <circle cx="1040" cy="280" r="95" fill="#29ff87"/>
+  </g>
+
+  <g opacity="0.32" filter="url(#softGlow)">
+    <path d="M120 315 C250 240, 390 360, 520 290 C640 230, 760 340, 900 265 C1040 190, 1170 330, 1320 260"
+          stroke="#00ffd1" stroke-width="14" fill="none" stroke-linecap="round"/>
+    <path d="M80 355 C220 280, 350 410, 500 340 C640 270, 760 390, 920 325 C1070 260, 1210 395, 1340 325"
+          stroke="#ff58f7" stroke-width="10" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <rect y="560" width="1400" height="240" fill="url(#roadGrad)"/>
+  <rect y="620" width="1400" height="6" fill="#4d4a6a" opacity="0.4"/>
+  <rect y="710" width="1400" height="5" fill="#4d4a6a" opacity="0.35"/>
+
+  <g opacity="0.9">
+    <rect x="120" y="668" width="120" height="8" rx="4" fill="#ffd84b"/>
+    <rect x="340" y="668" width="120" height="8" rx="4" fill="#ffd84b"/>
+    <rect x="560" y="668" width="120" height="8" rx="4" fill="#ffd84b"/>
+    <rect x="780" y="668" width="120" height="8" rx="4" fill="#ffd84b"/>
+    <rect x="1000" y="668" width="120" height="8" rx="4" fill="#ffd84b"/>
+    <rect x="1220" y="668" width="120" height="8" rx="4" fill="#ffd84b"/>
+  </g>
+
+  <ellipse cx="700" cy="620" rx="395" ry="56" fill="#000000" opacity="0.34"/>
+
+  <g transform="translate(150 220)">
+    <path d="M90 320 L130 250 C160 195, 245 152, 360 148 L680 140 C760 137, 842 168, 910 225 L1025 320 Z"
+          fill="url(#carBase)" stroke="#101022" stroke-width="7"/>
+
+    <path d="M305 145 C350 86, 442 62, 560 62 L700 62 C754 63, 814 90, 860 130 L890 166 L305 166 Z"
+          fill="#24154f" stroke="#161133" stroke-width="6"/>
+
+    <path d="M335 164 L865 164 L840 142 C804 111, 757 92, 706 91 L566 91 C463 91, 386 111, 347 149 Z"
+          fill="url(#windowGrad)" stroke="#8cf3ff" stroke-opacity="0.7" stroke-width="3"/>
+
+    <path d="M112 306 L1018 306" stroke="#f5f8ff" stroke-opacity="0.4" stroke-width="3"/>
+    <path d="M560 171 L560 304" stroke="#aee4ff" stroke-opacity="0.4" stroke-width="3"/>
+    <path d="M720 171 L720 304" stroke="#aee4ff" stroke-opacity="0.35" stroke-width="3"/>
+
+    <g opacity="0.98">
+      <path d="M170 282 C290 221, 395 311, 508 259 C620 207, 735 302, 840 252 C915 216, 960 248, 1002 229"
+            stroke="#12ffd8" stroke-width="17" fill="none" stroke-linecap="round"/>
+      <path d="M140 250 C255 183, 380 275, 488 218 C605 158, 737 254, 846 206 C921 172, 973 196, 1010 178"
+            stroke="#ffec4f" stroke-width="14" fill="none" stroke-linecap="round"/>
+      <path d="M158 228 C270 163, 390 250, 498 196 C619 132, 759 228, 872 178 C939 148, 983 170, 1014 154"
+            stroke="#ff4ccb" stroke-width="11" fill="none" stroke-linecap="round"/>
+      <path d="M432 308 L472 245 L525 283 L568 232 L615 268 L662 210 L705 251 L752 196"
+            fill="none" stroke="#fff4a8" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="265" cy="254" r="20" fill="#ff6f00"/>
+      <circle cx="265" cy="254" r="9" fill="#fff4a8"/>
+      <circle cx="845" cy="228" r="18" fill="#00d5ff"/>
+      <circle cx="845" cy="228" r="8" fill="#f8ffff"/>
+      <path d="M625 260 L674 218 L652 270 L705 245 L657 295 L678 250 Z" fill="#52ff7a"/>
+    </g>
+
+    <text x="590" y="292" font-family="Arial, sans-serif" font-size="60" font-weight="900"
+          fill="#ffffff" fill-opacity="0.86" transform="skewX(-15)">VIVID</text>
+
+    <g>
+      <circle cx="280" cy="322" r="98" fill="#17192c" stroke="#090a17" stroke-width="8"/>
+      <circle cx="280" cy="322" r="68" fill="#0f1121" stroke="#dee8ff" stroke-opacity="0.7" stroke-width="6"/>
+      <circle cx="280" cy="322" r="43" fill="url(#wheelGlow)"/>
+      <circle cx="280" cy="322" r="12" fill="#f9fdff"/>
+
+      <circle cx="830" cy="322" r="98" fill="#17192c" stroke="#090a17" stroke-width="8"/>
+      <circle cx="830" cy="322" r="68" fill="#0f1121" stroke="#dee8ff" stroke-opacity="0.7" stroke-width="6"/>
+      <circle cx="830" cy="322" r="43" fill="url(#wheelGlow)"/>
+      <circle cx="830" cy="322" r="12" fill="#f9fdff"/>
+    </g>
+
+    <path d="M1010 250 L1048 262 L1012 279 Z" fill="#fff2bd"/>
+    <path d="M88 255 L122 269 L86 282 Z" fill="#e2fbff"/>
+  </g>
+
+  <g opacity="0.6" filter="url(#softGlow)">
+    <circle cx="150" cy="490" r="20" fill="#00ffd1"/>
+    <circle cx="200" cy="520" r="15" fill="#ff48c8"/>
+    <circle cx="1230" cy="510" r="22" fill="#ffed52"/>
+    <circle cx="1285" cy="540" r="14" fill="#52ff7a"/>
+  </g>
+</svg>
